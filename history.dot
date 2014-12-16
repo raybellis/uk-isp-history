@@ -1,0 +1,43 @@
+digraph {
+	node [shape=box];
+	edge [style=dashed];
+
+	// corporate renamings
+	"04287100-20010913" ->
+	"04287100-20101115" ->
+	"04287100-20140829";
+
+	"03155758-19960201" ->
+	"03155758-19990412" ->
+	"03155758-20080328" ->
+	"03155758-20110214" ->
+	"03155758-20140829";
+
+	"03155995-19960206" ->
+	"03155995-19970919" ->
+	"03155995-19990408" ->
+	"03155995-20100715";
+
+	"06487557-20080129" ->
+	"06487557-20121105" ->
+	"06487557-20140829";
+
+	"04287100-20010913" [label="VTL (UK) Limited"];
+	"04287100-20101115" [label="MDNX Enterprise Services Limited"];
+	"04287100-20140829" [label="Easynet Enterprise Services Limited"];
+
+	"03155758-19960201" [label="Oxford Community Internet plc"];
+	"03155758-19990412" [label="Community Internet plc"];
+	"03155758-20080328" [label="CI-Net Limited"];
+	"03155758-20110214" [label="MDNX Network Services Limited"];
+	"03155758-20140829" [label="Easynet Network Services Limited"];
+
+	"03155995-19960206" [label="Community Internet Holdings plc"];
+	"03155995-19970919" [label="Community Internet plc"];
+	"03155995-19990408" [label="Community Internet Europe Limited"];
+	"03155995-20100715" [label="dissolved"];
+
+	"06487557-20080129" [label="Iconnyx Limited"];
+	"06487557-20121105" [label="MDNX Corporate Services Limited"];
+	"06487557-20140829" [label="Easynet Corporate Services Limited"];
+}
