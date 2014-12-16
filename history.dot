@@ -1,15 +1,20 @@
 digraph {
-	node [shape=box];
+	graph [compound=true];
+	node [shape=record];
 	edge [style=dashed];
 
 	// corporate renamings
 	subgraph "cluster-04287100" {
+		label = "04287100";
+		color = blue;
 		"04287100-20010913" ->
 		"04287100-20101115" ->
 		"04287100-20140829";
 	}
 
 	subgraph "cluster-03155758" {
+		label = "03155758";
+		color = blue;
 		"03155758-19960201" ->
 		"03155758-19990412" ->
 		"03155758-20080328" ->
@@ -18,6 +23,8 @@ digraph {
 	}
 
 	subgraph "cluster-03155995" {
+		label = "03155995";
+		color = blue;
 		"03155995-19960206" ->
 		"03155995-19970919" ->
 		"03155995-19990408" ->
@@ -25,10 +32,19 @@ digraph {
 	}
 
 	subgraph "cluster-06487557" {
+		label = "06487557";
+		color = blue;
 		"06487557-20080129" ->
 		"06487557-20121105" ->
 		"06487557-20140829";
 	}
+
+	// corporate ownership
+	edge [style=solid];
+	"03155995-19960206" -> "03155758-19960201" [ltail="cluster-03155995",lhead="cluster-03155758"];
+
+	// corporate names
+	"02954343-19940801" [label="Easynet Limited"];
 
 	"04287100-20010913" [label="VTL (UK) Limited"];
 	"04287100-20101115" [label="MDNX Enterprise Services Limited"];
