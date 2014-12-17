@@ -1,5 +1,9 @@
+02975312	Pipex UK Ltd
 02954343	Easynet Ltd
+03132603	Xara Networks Ltd
+03137499	Pipex Broadband Ltd
 03155758	Easynet Network Services Ltd [NB: CH JSON is broken]
 03155995	Community Internet Europe Ltd [dissolved]
+03681511	Pipex Networks Ltd
 04287100	Easynet Enterprise Services Ltd
 06487557	Easynet Corporate Services Ltd
