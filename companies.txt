@@ -4,12 +4,15 @@
 03099286	Host Europe Five Ltd
 03132603	Xara Networks Ltd
 03137499	Pipex Broadband Ltd
+03152569	Freedom4 Access Ltd
 03155758	Easynet Network Services Ltd [NB: CH JSON is broken]
 03155995	Community Internet Europe Ltd [dissolved]
+03299919	Nildram Ltd
 03415963	Host Europe Six Ltd
 03469222	GX Networks Twelve Ltd
 03584619	GX Networks UK Ltd
 03681511	Pipex Networks Ltd
+03756763	Host Europe Two Ltd
 03819738	Host Europe One Ltd
 03878115	GX Networks Eleven Ltd
 03878121	GX Networks Seven Ltd
@@ -17,9 +20,13 @@
 03974683	Daisy Group plc
 03949949	GX Networks Thirteen Ltd
 04023041	GX Networks Three Ltd
+04063120	Pipex UK Ltd
 04073025	GX Networks Five Ltd
 04073033	GX Networks Four Ltd
 04287100	Easynet Enterprise Services Ltd
 05306504	Webfusion Ltd
+05306519	Pipex Internet Ltd
+05751878	Freedom4 Ltd
 06487557	Easynet Corporate Services Ltd
+06755322	Talktalk Corporate Ltd
 SC115367	Host Europe Eight Ltd
