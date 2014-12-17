@@ -1,0 +1,29 @@
+#!/usr/bin/perl -w
+
+use strict;
+
+my $base_url = 'http://data.companieshouse.gov.uk/doc/company/%s.json';
+my $base_path = 'data/%s.json';
+
+# make sure the output directory exists
+mkdir 'data', 0755;
+
+# Load the company list
+my @companies;
+open IN, '<', 'companies.txt';
+while (<IN>) {
+	chomp;
+	my ($company) = split(/\t/);
+	push(@companies, $company);
+}
+close(IN);
+
+# Check the latest downloaded data
+foreach my $company (@companies) {
+	my $path = sprintf($base_path, $company);
+	my $url = sprintf($base_url, $company);
+
+	if (! -f $path || -M $path > 28) {
+		system "wget", "-O", $path, $url;
+	}
+}

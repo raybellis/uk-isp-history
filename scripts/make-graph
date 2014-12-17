@@ -1,0 +1,102 @@
+#!/usr/bin/perl -w
+
+use strict;
+use JSON;
+use Data::Dumper;
+
+my $base_dir = "data";
+my %companies;
+
+select STDOUT;
+
+# read input data
+opendir DIR, $base_dir;
+while (my $file = readdir(DIR)) {
+	next if ($file =~ /^\.\.?$/);
+	my $path = $base_dir . '/' . $file;
+
+	open IN, '<', $path;
+	my $json = join('', <IN>);
+	close IN;
+
+	my $data = decode_json($json);
+	my $topic = $data->{primaryTopic};
+	my $number = $topic->{CompanyNumber};
+
+	$companies{$number} = $topic;
+}
+closedir DIR;
+
+# normalise company history data
+foreach my $number (keys %companies) {
+	my $company = $companies{$number};
+	my @dates;
+	unshift(@dates, [ $company->{IncorporationDate}, undef ]);
+	if ($company->{PreviousNames}) {
+		foreach my $ref (reverse @{$company->{PreviousNames}}) {
+			$dates[0][1] = $ref->{CompanyName};
+			unshift(@dates, [ $ref->{CONDate}, undef ]);
+		}
+	}
+	$dates[0][1] = $company->{CompanyName};
+	if ($company->{DissolutionDate}) {
+		unshift(@dates, [ $company->{DissolutionDate}, 'Dissolved' ]);
+	}
+
+	$company->{_Dates} = \@dates;
+}
+
+# start GraphViz output
+print <<__EOT__;
+digraph {
+	graph [compound=true];
+	node [shape=box];
+__EOT__
+
+my @nodes = ();
+
+foreach my $number (sort keys %companies) {
+
+	my $company = $companies{$number};
+	my $fmt = <<__EOT__;
+subgraph "cluster-%s" {
+	label = "%s";
+	color = %s;
+	edge [style=dashed];
+__EOT__
+
+	printf $fmt, $company->{CompanyNumber}, $company->{CompanyNumber},
+		($company->{CompanyStatus} eq 'Dissolved') ? 'red' : 'blue';
+
+	my @dates = reverse @{$company->{_Dates}};
+	foreach my $i (0 .. $#dates) {
+		my $ref = $dates[$i];
+		my $node = sprintf('%s-%s', $number, $ref->[0]);
+		my $fmt = <<__EOT__;
+"%s" %s
+__EOT__
+
+		printf $fmt, $node, ($i < $#dates) ? '->' : '';
+		push(@nodes, [ $node, { label => '"' . $ref->[1] . '\n' . $ref->[0] . '"'} ]);
+	}
+
+	print <<__EOT__;
+}
+__EOT__
+
+}
+
+foreach my $ref (@nodes) {
+	my ($node, $attr) = @$ref;
+	printf '"%s"', $node;
+	if ($attr) {
+		print  " [";
+		print join(', ', map { $_ . '=' . $attr->{$_} } keys %{$attr});
+		print  "]";
+	}
+	print "\n";
+}
+
+print <<__EOT__;
+}
+__EOT__
