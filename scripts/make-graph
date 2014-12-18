@@ -31,7 +31,7 @@ closedir DIR;
 foreach my $number (keys %companies) {
 	my $company = $companies{$number};
 	my @dates;
-	unshift(@dates, [ $company->{IncorporationDate}, undef ]);
+	unshift(@dates, [ $company->{IncorporationDate} || $company->{RegistrationDate}, undef ]);
 	if ($company->{PreviousNames}) {
 		foreach my $ref (reverse @{$company->{PreviousNames}}) {
 			$dates[0][1] = $ref->{CompanyName};
