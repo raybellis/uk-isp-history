@@ -1,4 +1,7 @@
+02070438	GreenNet Ltd
 02120766	Direct Conection Ltd [acquired by Netscalibur, 2000]
+02320600	Trinite Ltd
+02307625	NTT Europe Ltd
 02952757	U-Net Ltd
 02975312	Pipex UK Ltd
 02954343	Easynet Ltd
@@ -13,7 +16,9 @@
 03155995	Community Internet Europe Ltd
 03299919	Nildram Ltd
 03415963	Host Europe Six Ltd
+03438257	NTT Europe Online Ltd
 03469222	GX Networks Twelve Ltd
+03849133	TalkTalk Communications Ltd
 03584619	GX Networks UK Ltd
 03681511	Pipex Networks Ltd
 03690730	Interoute UK Ltd
@@ -31,6 +36,7 @@
 04073025	GX Networks Five Ltd
 04073033	GX Networks Four Ltd
 04287100	Easynet Enterprise Services Ltd
+05235267	Talk Talk Communications Ltd
 05306504	Webfusion Ltd
 05306519	Pipex Internet Ltd
 05751878	Freedom4 Ltd
