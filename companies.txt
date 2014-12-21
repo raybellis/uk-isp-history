@@ -1,4 +1,6 @@
 01255384	Unipalm
+01800000	British Telecommunications plc
+01995018	Interdart Ltd
 02070438	GreenNet Ltd
 02120766	Direct Conection Ltd [acquired by Netscalibur, 2000]
 02307625	NTT Europe Ltd
@@ -28,14 +30,17 @@
 03152737	Claranet Ltd
 03155758	Easynet Network Services Ltd [NB: CH JSON is broken]
 03155995	Community Internet Europe Ltd
+03176954	Parbin Ltd
 03276447	AltoHiway Ltd
 03278844	Legend Internet Ltd
+03279013	Plusnet plc
 03299919	Nildram Ltd
 03415963	Host Europe Six Ltd
 03438257	NTT Europe Online Ltd
 03469222	GX Networks Twelve Ltd
 03486767	Moeraki Corporation plc
 03584619	GX Networks UK Ltd
+03676297	Easynet Channel Partners Ltd
 03681511	Pipex Networks Ltd
 03690730	Interoute UK Ltd
 03756763	Host Europe Two Ltd
@@ -63,6 +68,7 @@
 04073033	GX Networks Four Ltd
 04114003	Magic Moments Internet Ltd
 04137045	Norweb Telecom Ltd
+04190816	BT Group plc
 04287100	Easynet Enterprise Services Ltd
 04937421	186K Ltd
 05201852	Octium Ltd
@@ -78,8 +84,20 @@
 06776672	Webfusion Internet Ltd
 06776709	123-Reg Ltd
 06776761	Donhost Ltd
+06801206	MDNX CIG Ltd
+07297398	EGHL Ltd
+07297727	EGHL(UK) Ltd
+07374236	MDNX Group Ltd
+07374237	MDNX Ltd
+08458875	Easynet Global Services Ltd
+08497150	EGSL Holding Ltd
+08497159	B2B Holding Ltd
+08708361	Easynet Intermediate Holdings Ltd
+08708489	Easynet Financeco Ltd
+08751699	MDNX Holdings Ltd
 BR007365	Via Net.works, Inc.
 FC019010	BusinessNet Ltd
 SC115367	Host Europe Eight Ltd
 SC192666	Thus Group Holdings Ltd
+SC314337	MDNX S1 Ltd
 SC393548	True Life P.T. Ltd

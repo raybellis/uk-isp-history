@@ -1,1 +1,16 @@
-03155758,03155995,06/02/1996
+01995018,06801206,,Interdart Ltd owned by MDNX CIG Ltd
+03155758,03155995,06/02/1996,
+03155758,06801206,,Easynet Network Services Ltd owned by MDNX CIG Ltd
+03279013,01800000,24/01/2007,Plusnet acquired by BT Telecoms plc
+03676297,05201852,,Easynet Channel Partners Ltd owned by Octium Ltd
+04015139,04287100,,MDNX Internet Ltd owned by Easynet Enterprise Services Ltd
+04287100,07374237,,Easynet Enterprise Services Ltd owned by MDNX Ltd
+05201852,07374236,,Octium Ltd owned by MDNX Group Ltd
+06487557,05201852,,Easynet Corporate Services Ltd owned by Octium Ltd
+06801206,07374237,,MDNX CIG Ltd owned by MDNX Ltd
+07297398,08751699,,EGHL Ltd owned by MDNX Holdings Ltd
+07374236,08751699,,MDNX Group Ltd owned by MDNX Holdings Ltd
+07374237,07374236,,MDNX Ltd owned by MDNX Group Ltd
+08751699,08708489,,MDNX Holdings Ltd owned by Easynet FinanceCo Ltd
+08708489,08708361,,Easynet FinanceCo Ltd owned by Easynet Intermedia Holding Company Ltd
+SG314337,07374237,,MDNX S1 Ltd owned by MDNX Ltd
