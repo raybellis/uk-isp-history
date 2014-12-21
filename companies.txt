@@ -1,47 +1,85 @@
+01255384	Unipalm
 02070438	GreenNet Ltd
 02120766	Direct Conection Ltd [acquired by Netscalibur, 2000]
-02320600	Trinite Ltd
 02307625	NTT Europe Ltd
+02320600	Trinite Ltd
+02649062	The Public IP Exchange Ltd
+02862146	Unipalm Group
+02903110	UUNET Ltd
+02920413	Mistral Internet Ltd
+02935835	Allurian Limited
 02952757	U-Net Ltd
-02975312	Pipex UK Ltd
 02954343	Easynet Ltd
+02957566	Zen Microsystems Ltd
+02975312	Pipex UK Ltd
+02985542	Zynet Ltd
+02988201	VBCNET (GB) Ltd
+03014367	Orange Home UK Ltd
+03055804	Onetel Ltd
 03059016	Pipex Communications Services Ltd
+03063860	Unipalm Pipex Ltd
 03077786	Star Technology Services Ltd [acquired by Claranet, 2012]
+03091862	Mailbox Internet Ltd
 03099286	Host Europe Five Ltd
+03101568	Zen Internet Ltd
 03132603	Xara Networks Ltd
 03137499	Pipex Broadband Ltd
 03152569	Freedom4 Access Ltd
 03152737	Claranet Ltd
 03155758	Easynet Network Services Ltd [NB: CH JSON is broken]
 03155995	Community Internet Europe Ltd
+03276447	AltoHiway Ltd
+03278844	Legend Internet Ltd
 03299919	Nildram Ltd
 03415963	Host Europe Six Ltd
 03438257	NTT Europe Online Ltd
 03469222	GX Networks Twelve Ltd
-03849133	TalkTalk Communications Ltd
+03486767	Moeraki Corporation plc
 03584619	GX Networks UK Ltd
 03681511	Pipex Networks Ltd
 03690730	Interoute UK Ltd
 03756763	Host Europe Two Ltd
+03765745	Freeserve Investments Ltd
+03782440	Maylands Avenue Holdco I Ltd
+03782441	Dixons Group Ltd
+03783312	Freeserve Ltd
+03783811	Host Europe Four Ltd
+03796396	Wanadoo Ltd
 03819738	Host Europe One Ltd
+03842309	YCL Transport Ltd
+03849133	TalkTalk Communications Ltd
 03878115	GX Networks Eleven Ltd
 03878121	GX Networks Seven Ltd
 03878123	GX Networks Six Ltd
 03940889	Netscalibur Ltd [acquired by Claranet, 2003]
-03974683	Daisy Group plc
 03949949	GX Networks Thirteen Ltd
+03974683	Daisy Group plc
 03983189	U - Net UK Ltd
+04005262	Cable & Wireless Access Ltd
+04019149	Bulldog Networks Ltd
 04023041	GX Networks Three Ltd
 04063120	Pipex UK Ltd
 04073025	GX Networks Five Ltd
 04073033	GX Networks Four Ltd
+04114003	Magic Moments Internet Ltd
+04137045	Norweb Telecom Ltd
 04287100	Easynet Enterprise Services Ltd
+04937421	186K Ltd
+05201852	Octium Ltd
 05235267	Talk Talk Communications Ltd
 05306504	Webfusion Ltd
 05306519	Pipex Internet Ltd
 05751878	Freedom4 Ltd
 06487557	Easynet Corporate Services Ltd
+06491432	Zen Internet (One)
+06524111	Host Europe Nine Ltd
+06527428	Host Europe Ltd
 06755322	Talktalk Corporate Ltd
+06776672	Webfusion Internet Ltd
+06776709	123-Reg Ltd
+06776761	Donhost Ltd
 BR007365	Via Net.works, Inc.
+FC019010	BusinessNet Ltd
 SC115367	Host Europe Eight Ltd
 SC192666	Thus Group Holdings Ltd
+SC393548	True Life P.T. Ltd
